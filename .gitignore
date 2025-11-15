@@ -1,0 +1,93 @@
+# =============================
+# 🧠 基础配置
+# =============================
+
+# Python 编译缓存
+__pycache__/
+*.py[cod]
+*.so
+
+# 虚拟环境
+.env
+.venv
+env/
+venv/
+ENV/
+*.egg-info/
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints/
+
+# =============================
+# ⚙️ 构建与依赖缓存
+# =============================
+build/
+dist/
+*.egg
+*.manifest
+*.spec
+
+# =============================
+# 🧪 测试与日志
+# =============================
+logs/
+*.log
+wandb/
+lightning_logs/
+tensorboard/
+events.out.tfevents*
+nohup.out
+
+# =============================
+# 💾 数据与模型权重
+# =============================
+data/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+*.zip
+*.tar
+*.tar.gz
+*.h5
+*.npy
+*.npz
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+
+# =============================
+# 🚀 训练中间文件
+# =============================
+checkpoints/
+output/
+outputs/
+results/
+runs/
+cache/
+.cache/
+tmp/
+temp/
+*.tmp
+
+# =============================
+# 🧰 IDE / 编辑器相关
+# =============================
+# VSCode
+.vscode/
+.settings/
+.history/
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# =============================
+# 🧑‍💻 系统文件
+# =============================
+.DS_Store
+Thumbs.db
+desktop.ini
