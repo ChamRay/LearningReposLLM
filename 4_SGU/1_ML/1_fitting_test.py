@@ -52,7 +52,7 @@ train_loss1 = mean_squared_error(train_y,model.predict(x_train1))
 ax[0].plot(X,model.predict(X),'r')
 ax[0].text(-3,1,f"测试误差：{test_loss1:.4f}")
 ax[0].text(-3,1.3,f"训练误差：{train_loss1:.4f}")
-plt.rcParams['font.sans-serif'] = ['KaiTi']
+plt.rcParams['font.sans-serif'] = ['KaiTi', 'Kaiti SC']
 plt.rcParams['axes.unicode_minus'] = False
 plt.show()
 
