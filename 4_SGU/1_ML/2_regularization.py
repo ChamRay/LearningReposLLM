@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.linear_model import LinearRegression # 线性回归模型
+from sklearn.linear_model import LinearRegression,Lasso,Ridge # 线性回归模型
 from sklearn.preprocessing import PolynomialFeatures # 构建多项式特征
 from sklearn.model_selection import train_test_split # 划分训练集和测试集
 from sklearn.metrics import mean_squared_error # 均方误差损失函数
